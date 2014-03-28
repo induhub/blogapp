@@ -1,0 +1,7 @@
+{% for each_post in posts %}
+
+<h1><a href="/blog/{{each_post.key.id()}}">{{each_post.subject}}</a></h1><br>
+<p>{{each_post.content}}</p>
+
+
+{% endfor %}
